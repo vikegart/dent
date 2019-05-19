@@ -1,0 +1,15 @@
+{
+  "name": "dent-bot",
+  "version": "0.1.0",
+  "description": "bot for flip coin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Vikentii Ekgart",
+  "license": "ISC",
+  "dependencies": {
+    "node-vk-bot": "^1.2.3"
+  }
+}
