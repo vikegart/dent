@@ -33,4 +33,4 @@
 Код удобнее писать в [Visual Studio Code](https://code.visualstudio.com/)
 
 1. Открываем папку с этим проектом на компьютере. Открываем этот проект в VS Code ![vs-code](https://pp.userapi.com/c852236/v852236721/124575/IjgHhD5xLUM.jpg "Web Strom конечно тоже ничего такой :) ")
-2. Открываем файл **index.js** И вставляем [токен](..#token) и ID группы в файл бота. ![insert](https://pp.userapi.com/c852236/v852236721/124562/kK0uIK7TLe0.jpg "Ты же их сохранил, да?")
+2. Открываем файл **index.js** И вставляем <a href="#token">токен</a> и ID группы в файл бота. ![insert](https://pp.userapi.com/c852236/v852236721/124562/kK0uIK7TLe0.jpg "Ты же их сохранил, да?")
