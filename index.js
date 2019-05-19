@@ -3,8 +3,8 @@ const flipCoin = require('./flip-coin');
 const util = require('util');
 
 const bot = new Bot({
-    token: 'cc50ae5dc2a999cab12a1ffd361488ff76ff5bb4c514110f9d784f801bb4b11f6278049681e56adb1756c',
-    group_id: 182498044
+    token: 'token',
+    group_id: 777
 }).start();
 
 console.log('Bot started!');
