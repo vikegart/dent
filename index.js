@@ -16,8 +16,8 @@ bot.get(/./i, (message, exec, reply) => {
     let keyboard = new Keyboard(true)
 
     for (var i = 0; i < info.btns.length; ++i) {
-        if (!(i % 2) && i) keyboard.addRow()
-        keyboard.addButton(info.btns[i].msg, KeyboardColor.PRIMARY, JSON.stringify(info.btns[i].next))
+        if (i) keyboard.addRow();
+        keyboard.addButton(info.btns[i].msg, KeyboardColor.PRIMARY, JSON.stringify(info.btns[i].next));
     }
     reply(info.question, { keyboard }).catch(e => console.error(e));
     //bot.send(info.question, message.peer_id, keyboard.obj).catch(e => console.error(e))
